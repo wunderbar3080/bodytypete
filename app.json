@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "바디타입 테스트",
+    "slug": "bodytypetestApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "port": 59584
+    },
+    "ios": {
+      "bundleIdentifier": "com.bodymentork.bodytypetest",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bodymentork.bodytypetest",
+      "versionCode": 4,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9696043619835608~8013869196"
+      }
+    }
+  }
+}
